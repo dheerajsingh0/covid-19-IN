@@ -35,7 +35,7 @@ const Covid = () => {
   <div class="card 1">
     <center><h1>Country</h1></center>
     
-    <div class="card_image"> <img loading="lazy" src={img1} /> </div>
+    <div class="card_image"> <img loading="lazy" src={img1} alt="img1" /> </div>
     <div class="card_title title-white">
       <p>INDIA</p>
     </div>
@@ -44,7 +44,7 @@ const Covid = () => {
     <div class="card 2">
     <center><h1><b>{data.recovered}</b></h1></center>
     <div class="card_image">
-      <img loading="lazy" src= "https://media.giphy.com/media/10SvWCbt1ytWCc/giphy.gif"/>
+      <img loading="lazy" src= "https://media.giphy.com/media/10SvWCbt1ytWCc/giphy.gif" alt="img"/>
       </div>
     <div class="card_title title-green">
       <p>Total Recovered</p>
@@ -54,7 +54,7 @@ const Covid = () => {
   <div class="card 3">
     <div class="card_image">
     <center><h1><b>{data.confirmed}</b></h1></center>
-      <img src={img2} loading="lazy" />
+      <img src={img2} loading="lazy" alt="img"/>
     </div>
     <div class="card_title title-green">
       <p>Total Confirmed</p>
@@ -65,7 +65,7 @@ const Covid = () => {
         
     <div class="card_image">
     <center><h1><b>{data.deaths}</b></h1></center>
-      <img src="https://media.giphy.com/media/LwIyvaNcnzsD6/giphy.gif" loading="lazy" />
+      <img src="https://media.giphy.com/media/LwIyvaNcnzsD6/giphy.gif" loading="lazy" alt="img" />
       </div>
       
     <div class="card_title title-red">
@@ -76,7 +76,7 @@ const Covid = () => {
     <div class="card 5">
     <div class="card_image">
     <center><h1><b>{data.active}</b></h1></center>
-      <img loading="lazy" src={img3} />
+      <img loading="lazy" src={img3} alt="img"/>
       </div>
     <div class="card_title title-red">
       <p>CURRENT ACTIVE CASE</p>
@@ -85,7 +85,7 @@ const Covid = () => {
   <div class="card 6">
     <div class="card_image">
     <center><h1><b>{data.lastupdatedtime}</b></h1></center>
-       <img loading="lazy" src={img4} /> </div>
+       <img loading="lazy" src={img4} alt="img" /> </div>
     <div class="card_title title-white">
       <p><b>LAST UPDATE</b></p>
     </div>
