@@ -73,7 +73,7 @@ export default function Home(res) {
                 <h1>
                   <b>{data.confirmed}</b>
                 </h1>
-                <h1>Total Confirmed Case</h1>
+                <h1>Total Confirmed </h1>
               </center>
               <Image
                 id="imgcs"
