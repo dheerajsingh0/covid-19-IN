@@ -23,11 +23,11 @@ export default function Home(res) {
           <h3> 🔴 LIVE COVID-19 Tracker</h3>
           <h2>COVID-19 CORONAVIRUS TRACKER FOR INDIA</h2>
         </center>
-
         <div className="cards-list">
           <div className="card 1">
             <center>
               <h1>Country</h1>
+              <h1>INDIA</h1>
             </center>
 
             <div className="card_image">
@@ -42,16 +42,13 @@ export default function Home(res) {
               />
               {/* <img loading="lazy" src="images/1.jpg" alt="img1" /> */}
             </div>
-            <div className="card_title title-white">
-              <p>INDIA</p>
-            </div>
           </div>
-
           <div className="card 2">
             <center>
               <h1>
                 <b>{data.recovered}</b>
               </h1>
+              <h1>Total Recovered</h1>
             </center>
             <div className="card_image">
               <Image
@@ -68,9 +65,6 @@ export default function Home(res) {
               alt="img"
             /> */}
             </div>
-            <div className="card_title title-green">
-              <p>Total Recovered</p>
-            </div>
           </div>
 
           <div className="card 3">
@@ -79,6 +73,7 @@ export default function Home(res) {
                 <h1>
                   <b>{data.confirmed}</b>
                 </h1>
+                <h1>Total Confirmed Case</h1>
               </center>
               <Image
                 id="imgcs"
@@ -89,9 +84,6 @@ export default function Home(res) {
                 placeholder="blur"
               />
             </div>
-            <div className="card_title title-green">
-              <p>Total Confirmed</p>
-            </div>
           </div>
 
           <div className="card 4">
@@ -100,6 +92,7 @@ export default function Home(res) {
                 <h1>
                   <b>{data.deaths}</b>
                 </h1>
+                <h1>Total Deaths Case </h1>
               </center>
               <Image
                 id="imgcs"
@@ -110,10 +103,6 @@ export default function Home(res) {
                 placeholder="blurDataURL"
               />
             </div>
-
-            <div className="card_title title-red">
-              <p>TOTAL DEATHS</p>
-            </div>
           </div>
           <div className="card 5">
             <div className="card_image">
@@ -121,6 +110,7 @@ export default function Home(res) {
                 <h1>
                   <b>{data.active}</b>
                 </h1>
+                <h1>CURRENT ACTIVE CASE</h1>
               </center>
               <Image
                 id="imgcs"
@@ -131,9 +121,6 @@ export default function Home(res) {
                 placeholder="blur"
               />
             </div>
-            <div className="card_title title-red">
-              <p>CURRENT ACTIVE CASE</p>
-            </div>
           </div>
           <div className="card 6">
             <div className="card_image">
@@ -141,6 +128,7 @@ export default function Home(res) {
                 <h1>
                   <b>{data.lastupdatedtime}</b>
                 </h1>
+                <h1>LAST UPDATE TIME</h1>
               </center>
               <Image
                 id="imgcs"
@@ -150,12 +138,6 @@ export default function Home(res) {
                 width={400}
                 placeholder="blur"
               />
-            </div>
-            <div className="card_title title-white">
-              <p>
-                <b>LAST UPDATE</b>
-              </p>
-              <h3>Updating</h3>
             </div>
           </div>
         </div>
